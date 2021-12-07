@@ -1,14 +1,22 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
     border: 1px solid blue;
 }
 
 header {
-    border: 1px solid yellow
+    border: 2px solid red
 }
 
-h1{
+h1 {
     text-decoration: line-through;
+}
+
+.myText{
+    background-color: chartreuse;
+}
+
+.myImg{
+    background-color: darkgoldenrod;
 }
