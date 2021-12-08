@@ -20,3 +20,12 @@ h1 {
 .myImg{
     background-color: darkgoldenrod;
 }
+
+input[type=text]:hover{
+    background-color: darkkhaki;
+}
+
+#button:hover{
+    background-color: green;
+    border: 2px
+}

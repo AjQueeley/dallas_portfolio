@@ -14,11 +14,10 @@
 
     <nav>
         <!--My Nav Dropdown-->
-        <ul>
-            <li>Resume</li>
-            <li>My Portfolio</li>
-        </ul>
+        <a href ="pages\myPortfolio.html">My Portfolio</a>
+        <a href ="pages/resume.html">Resume</a>
     </nav>
+    
 </header>
 
 <div>
@@ -40,19 +39,23 @@
 </div>
 
 <div>
-<!--Contact Me-->
+     <!--Form to Contact Me--> 
+     <h3>Got a Question? Contact me here!</h3>
+     <form>
+        <label for = "email">Email:</label><br>
+        <input type = "email" id = "email" name = "email"><br>
+        <label for = "response">Response:</label><br>
+        <input type = "text" id = "response" name = "response"><br>
+        <button id = "button">Submit</button>
+    </form>
 
 </div>
 
     <footer>
-        <!--Form to Contact Me--> 
-        <form>
-            <label for = "email">Email:</label><br>
-            <input type = "text" id = "email" name = "email"><br>
-            <label for = "response">Response:</label><br>
-            <input type = "text" id "response" name = "response">
-        </form>
+       <!--Contact Me-->
+       <h3>Here are my socials:</h3>
     </footer>
     
 </body>
+
 </html>
