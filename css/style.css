@@ -21,7 +21,6 @@ ul {
     margin: 0;
     padding: 0;
     text-decoration: white;
-    position: absolute;
     display: inline;
   }
 
@@ -45,6 +44,9 @@ h1 {
 .myImg{
     background-color: darkgoldenrod;
     border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 input[type=text]:hover{
@@ -79,5 +81,6 @@ input[type=text]:hover{
     width: 600px;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 
 }
