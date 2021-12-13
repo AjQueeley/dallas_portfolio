@@ -10,14 +10,25 @@
 <body>
 <!--My Header-->
 <header>
-    <h1>Ajani Queeley's Portfolio</h1>
+    <h1>Ajani Queeley's Webpage!</h1>
+
 
     <nav>
-        <!--My Nav Dropdown-->
-        <a href ="pages\myPortfolio.html">My Portfolio</a>
-        <a href ="pages/resume.html">Resume</a>
+        <!--My Nav Dropdown--> 
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href ="#contact-me">Contact Me</a></li>
+            <li><a href ="https://www.google.com/search?q=ajani+queeley&oq=ajani+queeley&aqs=chrome..69i57j69i65j69i61.3968j0j7&sourceid=chrome&ie=UTF-8">Google Me!</a></li>
+            <li><a href ="#">Links</a>
+                <ul class="dropdown"> 
+                    <li><a href ="pages\myPortfolio.html">My Portfolio</a></li>
+                    <li><a href ="pages/resume.html">Resume</a></li>
+                </ul>
+            </li>
+        </ul>
+            
     </nav>
-    
+
 </header>
 
 <div>
@@ -30,15 +41,15 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </div>
-    <div class="myImg">
+    <div>
         <!--My image-->
-            <img src ='https://i.picsum.photos/id/469/200/300.jpg?hmac=XkjIV9jof2hkk4eUpQpbQVMBiSTfqdlJxIdlcIdEM6Q'
+            <img class="myImg" src ='https://i.picsum.photos/id/469/200/300.jpg?hmac=XkjIV9jof2hkk4eUpQpbQVMBiSTfqdlJxIdlcIdEM6Q'
             alt = 'A random image'
             />
     </div>
 </div>
 
-<div>
+<div id="contact-me">
      <!--Form to Contact Me--> 
      <h3>Got a Question? Contact me here!</h3>
      <form>

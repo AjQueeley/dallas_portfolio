@@ -2,30 +2,82 @@
     box-sizing: border-box;
     margin: 5px;
     padding: 5px;
-    border: 1px solid blue;
+    
 }
+
+/* Home Page */
 
 header {
     border: 2px solid red
 }
 
+.dropdown{
+    background: black;
+}
+
+ul {
+    background: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: white;
+    position: absolute;
+    display: inline;
+  }
+
+ul li{
+    float: left;
+}
+  /* li{
+      display: inline;
+  } */
+
 h1 {
-    text-decoration: line-through;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    text-align: center;
 }
 
 .myText{
-    background-color: chartreuse;
+    padding: 10%;
+    font-size: 2em;
+    background-color: rgb(0, 162, 255);
 }
-
 .myImg{
     background-color: darkgoldenrod;
+    border-radius: 50%;
 }
 
 input[type=text]:hover{
     background-color: darkkhaki;
 }
 
-#button:hover{
+.button:hover{
     background-color: green;
     border: 2px
+}
+
+
+  
+
+/*Portfolio Page*/
+.myPortfolio{
+    border: black
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    text-align: center;
+
+}
+
+/* Resume Page */
+
+.myResume{
+    border: black;
+    display: flex;
+    height: 200px;
+    width: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+
 }
